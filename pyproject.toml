@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "on-drop"
 version = "0.1.0"
-description = ""
+description = "A Python package for checking product availability across different websites"
 authors = ["CrimpsOnSlopers <jrhawktwo@gmail.com>"]
 readme = "README.md"
 packages = [{include = "on_drop"}]
@@ -12,6 +12,9 @@ rich = "^14.0.0"
 requests = "^2.32.3"
 click = "^8.2.1"
 
+[tool.poetry.group.dev.dependencies]
+types-requests = "^2.32.0.20250602"
+mypy = "^1.16.0"
 
 [build-system]
 requires = ["poetry-core"]
