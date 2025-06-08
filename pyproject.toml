@@ -2,7 +2,7 @@
 name = "on-drop"
 version = "0.1.0"
 description = "A Python package for checking product availability across different websites"
-authors = ["CrimpsOnSlopers <jrhawktwo@gmail.com>"]
+authors = ["John Rogers <johnr.is.coding@gmail.com>"]
 readme = "README.md"
 packages = [{include = "on_drop"}]
 
@@ -11,8 +11,11 @@ python = "^3.12"
 rich = "^14.0.0"
 requests = "^2.32.3"
 click = "^8.2.1"
+pytest = "^8.4.0"
 
 [tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+pytest-cov = "^4.1.0"
 types-requests = "^2.32.0.20250602"
 mypy = "^1.16.0"
 
